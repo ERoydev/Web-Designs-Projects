@@ -1,0 +1,35 @@
+.main-nav ul {
+    display: flex;
+    gap: 3em;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav a {
+    font-size: 1em;
+}
+
+#nav-toggle {
+    appearance: none;
+    pointer-events: none;
+    display: none;
+}
+
+.nav-menu {
+    width: 3.5em;
+    display: none;
+    padding: 0.7em;
+    padding-bottom: 0.4em;
+    border-radius: 5px;
+}
+
+
+.nav-menu:hover,
+.nav-menu:focus {
+    background-color: rgb(223, 223, 223);
+    cursor: pointer;
+    fill: rgb(16, 113, 168);
+    transition: all 0.3s ease-in-out;
+}

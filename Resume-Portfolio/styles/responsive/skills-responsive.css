@@ -1,0 +1,13 @@
+
+@media (max-width: 1600px) {
+
+    .skills-showcase .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 530px) {
+    .card .svg {
+        flex-shrink: 1;
+    }
+}

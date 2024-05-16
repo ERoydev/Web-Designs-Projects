@@ -1,0 +1,11 @@
+@media (max-width: 1200px) {
+   .site-header .main-nav ul {
+    display: none;
+   }
+
+   .nav-menu {
+    display: block;
+   }
+
+} 
+

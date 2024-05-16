@@ -1,0 +1,33 @@
+
+.card svg {
+    width: 3.75em;
+    fill: #e2e2e2;
+}
+
+.skills-showcase {
+    background-color: rgb(16, 113, 168);
+}
+
+.skills-showcase .container {
+    display: flex;
+    padding: 3em;
+    align-items: center;
+    gap: 2em;
+    width: 60%;
+}
+
+.skills-showcase .card {
+    text-align: center;
+}
+
+.skills-showcase .card .title {
+    font-weight: 600;
+    padding-bottom: 1em;
+    font-size: 1em;
+    color: #e2e2e2;
+}
+
+.skills-showcase .card .description {
+    color: #e2e2e2;
+    font-size: 0.7em;
+}
