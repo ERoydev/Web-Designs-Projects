@@ -2,6 +2,10 @@
     padding-top: 5em;
 }
 
+.tech-item p {
+    color: #333;
+}
+
 .tech-list img {
     width: 8em;
     height: 8em;
@@ -34,7 +38,7 @@
 }
 
 .tech-item:hover div {
-    background: rgba(55, 127, 160, 0.247);
+    background: rgba(55, 127, 160, 0.158);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }

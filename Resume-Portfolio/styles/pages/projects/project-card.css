@@ -7,10 +7,6 @@
     position: relative;
 }
 
-.projects-showcase .slider {
-    margin-top: 0;
-}
-
 .projects-showcase .card .techstack div {
     width: 100%;
     display: flex;
@@ -33,11 +29,6 @@
     margin: 0 auto;
 }
 
-.projects-showcase .card:hover {
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
 .projects-showcase .card .description {
     border-bottom: 1px solid rgba(204, 204, 204, 0.753);
     font-size: 0.95em;
@@ -47,7 +38,7 @@
 .projects-showcase .card .techstack {
     padding: 1.5em 2em 1.5em 2em;
     color: rgb(133, 133, 133);
-
+    
 }
 
 .projects-showcase .card .techstack {
@@ -56,18 +47,4 @@
     align-items: flex-start;
     gap: 1em;
     font-size: 0.9em;
-}
-
-.projects-showcase .card button {
-    position: absolute;
-    bottom: 2em;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    padding: 0.5em 1em;
-    width: 9em;
-    background-color: orange;
-    border: none;
 }

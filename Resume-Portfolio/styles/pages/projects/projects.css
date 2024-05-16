@@ -2,3 +2,7 @@
     text-align: center;
     padding: 4em 2em 2em 2em;
 }
+
+.projects-showcase .slider {
+    margin-top: 0;
+}
