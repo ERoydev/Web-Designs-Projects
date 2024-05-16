@@ -1,0 +1,119 @@
+
+.profile-showcase {
+    padding: 8em;
+    background-color: rgb(226, 226, 226);
+}
+
+.profile-showcase .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex-shrink: 1;
+}
+
+.profile-showcase .container {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-img {
+    padding: 1em;
+}
+
+.profile-showcase .media {
+    padding: 0.8em;
+    border-radius: 0.5em;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.4);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(7,58,153,1) 0%, rgba(0,212,255,1) 91%); 
+    width: 20em;
+}
+ 
+.profile-showcase .media img {
+    border-radius: 0.3em;
+    transition: opacity 0.3s ease-in;
+}
+
+.profile-showcase .media:hover {
+    img {
+        opacity: 0.6;
+    }
+}
+
+.profile-showcase p {
+    font-size: 1em;
+}
+
+.profile-showcase .description {
+    color: #6e6e6e;
+    padding-bottom: 2em;
+}
+
+.profile-showcase .content .title {
+    font-size: 0.9em;
+}
+
+.profile-showcase .socials,
+.profile-showcase .tech-stack {
+    display: flex;
+    gap: 1em;
+}
+
+.profile-showcase .socials svg,
+.profile-showcase .tech-stack svg {
+    width: 50px;
+}
+
+
+.profile-showcase .tech-stack {
+    flex-wrap: wrap;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}

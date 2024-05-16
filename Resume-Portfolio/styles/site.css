@@ -1,22 +1,32 @@
 @import url(base/reset.css);
 @import url(base/typography.css);
 
+/* GENERAL */
 @import url(site-layout.css);
 @import url(site-header.css);
-@import url(site-profile.css);
-@import url(site-about.css);
 @import url(site-footer.css);
 @import url(site-skills.css);
 @import url(site-main.css);
+/* GENERAL */
 
+/* COMPONENTS  */
 @import url(components/navigation.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+/* COMPONENTS */
+
+/* PAGES */
 @import url(pages/education/site-education.css);
-
-@import url(pages/projects.css);
 @import url(pages/site-tech-list.css);
+@import url(pages/profile-showcase/profile-showcase.css);
+@import url(pages/about/about.css);
+@import url(pages/skills-showcase/skills-showcase.css);
+@import url(pages/projects/project-card.css);
+@import url(pages/projects/projects.css);
+/* PAGES */
 
+/* RESPONSIVE */
 @import url(responsive/navigation-responsive.css);
 @import url(responsive/site-responsive.css);
 @import url(responsive/skills-responsive.css);
-@import url(site-projects.css);
-@import url(pages/project-card.css);
+/* RESPONSIVE */
