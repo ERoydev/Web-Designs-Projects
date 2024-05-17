@@ -1,0 +1,61 @@
+.contact {
+    padding: 10em 0;
+}
+
+.contact .container {
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.contact svg {
+    fill: #fff;
+    width: 2em;
+    margin: 0em 1.8em;
+}
+
+.contact .projects-btn {
+    border-radius: 30px;
+}
+
+.contact .contact-links {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.contact-description {
+    text-align: center;
+}
+
+.contact-description,
+.contact label {
+    color: rgb(143, 143, 143);
+}
+
+.contact-data {
+    display: flex;
+}
+
+.contact-info {
+    display: flex;
+    gap: 5em;
+    margin: 0 auto;
+}
+
+.contact-info svg,
+.contact-email svg{
+    fill: #333;
+}
+
+.contact-email {
+    display: flex;
+    justify-content: center;
+}
+
+.contact .data {
+    font-weight: 600;
+}

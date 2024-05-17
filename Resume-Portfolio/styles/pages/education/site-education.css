@@ -148,4 +148,10 @@ body {
 .education-showcase .list-items img {
     width: 11em;
     height: auto;
+    border-radius: 10px;
+}
+
+.item a {
+    text-decoration: none;
+    font-size: 1.1em;
 }

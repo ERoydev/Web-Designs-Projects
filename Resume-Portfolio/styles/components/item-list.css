@@ -55,6 +55,10 @@
     transition: all 0.3s ease-in-out;
 }
 
+.item:hover img {
+    opacity: 0.8;
+}
+
 .item p {
     color: #333;
 }
