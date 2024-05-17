@@ -89,100 +89,102 @@
                 </div>
             </div>
 
-            <div class="tech-list reveal">
-                <div class="container">
-
-                    <div class="container-header">
-                        <h1>My skills</h1>
+            <div class="techstack reveal">
+                <div class="list-items">
+                    <div class="container">
+                        
+                        <div class="container-header">
+                            <h1>My skills</h1>
                         <p>- Current tech that i use -</p>
                     </div>
                     
-                    <div class="tech-showcase">
-                        <div class="tech-item upwards">
+                    <div class="list-container">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/python.svg" alt="">
                             </div>
                             <p>Python</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/javascript.svg" alt="">
                             </div>
                             <p>JavaScript</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/html.svg" alt="">
                             </div>
                             <p>HTML</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/css.svg" alt="">
                             </div>
                             <p>CSS</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/react.svg" alt="">
                             </div>
                             <p>ReactJS</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/django-community.svg" alt="">
                             </div>
                             <p>Django</p>
                         </div>
                         
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/postgresql.svg" alt="">
                             </div>
                             <p>PostgreSQL</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/nodejs.svg" alt="">
                             </div>
                             <p>NodeJS</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/github-icon.svg" alt="">
                             </div>
                             <p>GitHub</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/linux.svg" alt="">
                             </div>
                             <p>Linux</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
                                 <img src="styles/images/technologies/firebase.svg" alt="">
                             </div>
                             <p>FireBase</p>
                         </div>
 
-                        <div class="tech-item upwards">
+                        <div class="item upwards">
                             <div>
-                               <img src="styles/images/technologies/docker.svg" alt="">
+                            <img src="styles/images/technologies/docker.svg" alt="">
                             </div>
                             <p>Docker</p>
                         </div>
                         
                     </div>
+                </div>
                 </div>
             </div>
 
@@ -329,6 +331,21 @@
 
             </div>
 
+            <div class="education-showcase reveal">
+                <div class="list-items">
+                    <div class="container">
+                        <div class="list-container">
+                            <div class="item upwards">
+                                <div>
+                                    <img src="styles/images/certificates/Programming Basics - February 2023 - Certificate.jpeg" alt="">
+                                </div>
+                                <p>Programming Basics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
             <div class="about reveal">
                 <h1>About me</h1>
                 <div class="container">
@@ -363,25 +380,7 @@
             </div>
         </footer>
     </div>
-    <script type="text/javascript">
-        window.addEventListener('scroll', reveal)
-
-        function reveal() {
-            let reveals = document.querySelectorAll('.reveal');
-
-            for(let i = 0; i < reveals.length; i++) {
-
-                let windowheight = window.innerHeight;
-                let revealtop = reveals[i].getBoundingClientRect().top;
-                let revealpoint = 150;
-
-                if (revealtop < windowheight - revealpoint) {
-                    reveals[i].classList.add('active');
-                }
-    
-            }
-        }
-    </script>
+    <script src="js/reveal.js"></script>
     
 </body>
 </html>

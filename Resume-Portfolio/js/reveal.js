@@ -1,3 +1,6 @@
+window.addEventListener('scroll', reveal)
+let reveals = document.querySelectorAll('.reveal');
+
 function reveal() {
     let reveals = document.querySelectorAll('.reveal');
 
@@ -9,9 +12,6 @@ function reveal() {
 
         if (revealtop < windowheight - revealpoint) {
             reveals[i].classList.add('active');
-        }
-        else {
-            reveals[i].classList.remove('active')
         }
     }
 }

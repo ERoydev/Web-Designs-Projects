@@ -1,0 +1,60 @@
+.list-items {
+    padding-top: 5em;
+}
+
+.list-items .item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(207, 76%, 64%, 0.082);
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.list-items h1 {
+    text-align: center;
+}
+
+.list-items img {
+    width: 8em;
+    height: 8em;
+}
+
+.container-header {
+    text-align: center;
+    padding: 2em;
+}
+
+.container-header p {
+    color: rgba(91, 37, 161, 0.815);
+    font-size: 1em;
+}
+
+.container-header h1 {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #333;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.item p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.item:hover div {
+    background: rgba(55, 127, 160, 0.158);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.item p {
+    color: #333;
+}
