@@ -144,3 +144,8 @@ body {
         width: 20%;
     }
 }
+
+.education-showcase .list-items img {
+    width: 11em;
+    height: auto;
+}
