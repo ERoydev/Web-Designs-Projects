@@ -1,7 +1,12 @@
 
-.card svg {
-    width: 3.75em;
+.skills-showcase .card svg {
+    width: 4em;
+    height: 4em;
     fill: #e2e2e2;
+}
+
+.skills-showcase .card:hover {
+    cursor: auto;
 }
 
 .skills-showcase {
@@ -12,6 +17,7 @@
     display: flex;
     padding: 3em;
     align-items: center;
+    justify-content: center;
     gap: 2em;
     width: 60%;
 }

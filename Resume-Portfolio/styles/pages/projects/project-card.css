@@ -48,3 +48,8 @@
     gap: 1em;
     font-size: 0.9em;
 }
+
+.projects-showcase .card:hover {
+    background-color: hsla(207, 60%, 62%, 0.144);
+    border-bottom: 2px solid rgb(35, 83, 128);
+}

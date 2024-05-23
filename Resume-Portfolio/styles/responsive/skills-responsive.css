@@ -1,5 +1,5 @@
 
-@media (max-width: 1600px) {
+@media (min-width: 920px) and (max-width: 1600px) {
 
     .skills-showcase .container {
         width: 90%;
@@ -10,4 +10,27 @@
     .card .svg {
         flex-shrink: 1;
     }
+}
+
+@media (max-width: 920px) {
+    .skills-showcase .container {
+        width: 100%;
+    }
+
+    .skills-showcase .card .title {
+        font-size: 0.8em;
+    }
+
+    .skills-showcase .card svg {
+        width: 50px;
+        height: 50px;
+    }
+    .skills-showcase .card .description {
+        font-size: 0.6em;
+    }
+
+    .skills-showcase .container {
+        padding: 2em;
+    }
+
 }

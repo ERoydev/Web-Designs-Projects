@@ -1,0 +1,24 @@
+@media (max-width: 1301px) {
+    .contact-info {
+        gap: 2em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact-info {
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .contact-data {
+        width: 100%;
+    }
+
+    .contact-links {
+        flex-wrap: wrap;
+    }
+
+    .list-container {
+        padding: 2em;
+    }
+}

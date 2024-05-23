@@ -41,6 +41,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
+    justify-content: center;
+}
+
+.item {
+    flex: 0 1 auto;
 }
 
 .item p {

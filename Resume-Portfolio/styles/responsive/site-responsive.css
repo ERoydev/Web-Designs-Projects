@@ -29,11 +29,56 @@
     .profile-showcase .content {
         width: fit-content;
     }
-
 }
 
 @media (max-width: 541px) {
     .profile-showcase .tech-stack {
         display: none;
+    }
+}
+
+/* Styles for mobile and tablets */
+@media (max-width: 1023px) {
+    .slider-wrapper .slide-button {
+        display: none!important;
+    }
+
+    .slider-wrapper .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* .slider-wrapper .image-list .image-item {
+        width: 250px;
+    }
+
+    .slider-wrapper .image-list {
+        height: 356px;
+    } */
+
+    .slider-scrollbar .scrollbar-thumb {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1814px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 14px;
+    };
+
+    .container {
+        width: 100%;
     }
 }
