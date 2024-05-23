@@ -34,3 +34,18 @@
     }
 
 }
+
+@media (max-width: 461px) {
+    .skills-showcase .card svg {
+        width: 34px;
+        height: 34px;
+    }
+
+    .skills-showcase .card .title {
+        font-size: 0.6em;
+    }
+
+    .skills-showcase .card .description {
+        font-size: 0.4em;
+    }
+}
