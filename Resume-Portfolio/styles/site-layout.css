@@ -4,6 +4,10 @@ body {
     min-height: 100vh;
 }
 
+.site {
+    background-color: #fff;
+}
+
 .container {
     width: 60%;
     margin: 0 auto;

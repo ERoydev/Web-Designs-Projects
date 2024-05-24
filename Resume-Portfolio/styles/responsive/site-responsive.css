@@ -11,23 +11,20 @@
 @media (max-width: 1814px) {
     .container {
         width: 70%;
-    }
+    };
 }
 
 @media (max-width: 1000px) {
     .container {
-        width: 90%;
-    }
+        width: 100%;
+    };
 }
 
 @media (max-width: 800px) {
     html {
         font-size: 14px;
     };
-    
-    .container {
-        width: 100%;
-    }
+
 }
 
 /* Styles for mobile and tablets */
@@ -43,5 +40,11 @@
 
     .slider-scrollbar .scrollbar-thumb {
         width: 20%;
+    }
+}
+
+@media (max-width: 660px) {
+    .contact .container-header {
+        opacity: 0.0000000001;
     }
 }
