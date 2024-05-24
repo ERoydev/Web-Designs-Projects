@@ -47,4 +47,9 @@
     .contact .container-header {
         opacity: 0.0000000001;
     }
+
+    .contact {
+        margin-top: 0;
+
+    }
 }
