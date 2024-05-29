@@ -1,34 +1,36 @@
+import { Hero, About, Projects, Experience, Approach, Education, Footer } from "./sections/index";
+import Nav from "./components/Nav";
+
 export default function App() {
   return (
-    <main className="relative">
-      Nav
-      <section className="xl:padding-1
-      wide:padding-r padding-b">
-        Hero
+    <main className="relative bg-primary">
+      <Nav />
+      <section className="xl:padding-1 padding-b">
+        <Hero />
+      </section>
+
+      <section className="padding bg-electric-blue">
+        <About />
       </section>
 
       <section className="padding">
-        About
-      </section>
-
-      <section className="padding bg-pale-blue">
-        Projects
+        <Projects />
       </section>
 
       <section className="padding-x sm:py-32 py-16 w-full">
-        Work experience
-      </section>
-
-      <seciton className="padding">
-        Approach
-      </seciton>
-
-      <section className="padding">
-        Education
+        <Experience />
       </section>
 
       <section className="padding">
-        Contact
+        <Approach />
+      </section>
+
+      <section className="padding">
+        <Education />
+      </section>
+
+      <section className="padding">
+        <Footer />
       </section>
 
     </main>
