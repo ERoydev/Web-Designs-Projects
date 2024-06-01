@@ -56,4 +56,13 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+
+  .window {
+    @apply bg-slate-400/[.03] border border-slate-500/[.30] rounded-3xl;
+  }
+
+  .main-text {
+    @apply text-white-clr font-montserrat font-bold;
+  }
+
 }

@@ -30,8 +30,10 @@ export default {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       screens: {
-        "wide": "1440px"
-      }
+        "wide": "1440px",
+        "large-custom": "1700px",
+        "md-custom": "1350px",
+      },
     },
   },
   plugins: [],
