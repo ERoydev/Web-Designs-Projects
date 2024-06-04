@@ -17,6 +17,20 @@ export default {
       '8xl': ['96px', '106px']
     },
     extend: {
+      animation: {
+        "loop-scroll-up": "loop-scroll-up 10s linear infinite",
+        "loop-scroll-down": "loop-scroll-down 40s linear infinite",
+      },
+      keyframes: {
+        "loop-scroll-up": {
+          from: {transfrom: "translateY(0)"},
+          to: {transform: "translateY(-80%)"},
+        },
+        "loop-scroll-down": {
+          from: { transform: 'translateY(-101.5%)'},
+          to: { transform: 'translateY(0)'},
+        },
+      },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
