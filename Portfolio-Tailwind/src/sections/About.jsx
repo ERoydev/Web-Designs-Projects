@@ -72,7 +72,7 @@ export default function About(){
                     <div className="absolute inset-0 bg-black opacity-20 shadow-inner"></div>
                     <h1 className="text-center tracking-tight leading-snug absolute z-20 bottom-[60%] opacity-100 main-text 2xl:text-[1.4rem] lg:text-[1.2rem] sm:text-[1.2rem] p-2 text-[1.2rem]">Interested in working together?</h1>
                     
-                    <GlowingButton positionClasses={'absolute bottom-[30%]'} label={'Copy my email address'} out={'Email is Copied!'}/>
+                    <GlowingButton positionClasses={'absolute bottom-[20%]'} label={'Copy my email address'} out={'Email is Copied!'}/>
                 </div>
 
                 <div className="md:col-span-2 md:row-span-2 window">

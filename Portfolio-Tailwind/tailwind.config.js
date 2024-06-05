@@ -18,8 +18,8 @@ export default {
     },
     extend: {
       animation: {
-        "loop-scroll-up": "loop-scroll-up 30s linear infinite",
-        "loop-scroll-down": "loop-scroll-down 40s linear infinite",
+        "loop-scroll-up": "loop-scroll-up 40s linear infinite",
+        "loop-scroll-down": "loop-scroll-down 50s linear infinite",
       },
       keyframes: {
         "loop-scroll-up": {
