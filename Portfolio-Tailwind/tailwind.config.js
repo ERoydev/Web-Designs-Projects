@@ -18,13 +18,13 @@ export default {
     },
     extend: {
       animation: {
-        "loop-scroll-up": "loop-scroll-up 10s linear infinite",
+        "loop-scroll-up": "loop-scroll-up 30s linear infinite",
         "loop-scroll-down": "loop-scroll-down 40s linear infinite",
       },
       keyframes: {
         "loop-scroll-up": {
           from: {transfrom: "translateY(0)"},
-          to: {transform: "translateY(-80%)"},
+          to: {transform: "translateY(-100%)"},
         },
         "loop-scroll-down": {
           from: { transform: 'translateY(-101.5%)'},
