@@ -8,7 +8,6 @@ import GlowingButton from "../components/Buttons/GlowingButton";
 export default function About(){
     return(
         <section className="flex flex-col items-center w-full .max-container">
-
             <div className="relative xl:w-4/5 grid md:grid-cols-3 auto-rows-[240px] gap-7">
                 
                 <div className="md:col-span-2 md:row-span-2 window flex">
