@@ -25,11 +25,11 @@ export default function App() {
         <Approach />
       </section>
 
-      <section className="padding">
+      {/* <section className="padding">
         <Education />
-      </section>
+      </section> */}
 
-      <section className="padding">
+      <section className="sm:px-16 px-8 sm:pt-24 pt-12 pb-12">
         <Footer />
       </section>
 

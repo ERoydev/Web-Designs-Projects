@@ -7,8 +7,8 @@ import ExperienceCard from "../components/Experience/ExperienceCard";
 
 export default function Experience() {
     return(
-        <section className="max-container relative">
-            <h1 className="mb-24 main-text text-[3.8rem] text-center">My fields of <span className="text-purple-clr">experience</span></h1>
+        <div className="max-container relative">
+            <h1 className="mb-24 main-text text-[3.4rem] text-center">My fields of <span className="text-purple-clr">experience</span></h1>
             <div className="flex justify-center flex-col xl:gap-10 max-xl:gap-8">
 
                 <div className="md:flex md:space-x-10 max-md:space-y-8">
@@ -21,6 +21,6 @@ export default function Experience() {
                     <ExperienceCard imgPath={backendImg} h1Text={'Django REST API'} pText={'Building robust and scalable APIs with Django.'}/>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }

@@ -41,3 +41,50 @@
         transform: translate(-50%, -50%) scale(1);
     }
 }
+
+.loader2 {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    clip-path: circle(0% at 50% 50%);
+}
+
+.loader2.visible {
+    clip-path: circle(150% at 50% 50%);
+    opacity: 1;
+}
+
+
+.loader2::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, #ff00ff33, #ff007733, #00ff7733, #00ffff33, #0000ff33, #ff000033, transparent);
+    animation: animate2 5s ease-in-out infinite, fade 5s ease-in-out infinite;
+    border-radius: 50%;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2) rotate(180deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1) rotate(360deg);
+    }
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
