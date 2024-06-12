@@ -1,0 +1,43 @@
+.loader {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure the loader stays within the container */
+}
+
+.loader::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(#ac00e111, #2195f313, #ac00e10e, transparent, transparent);
+    animation: animate 15s linear infinite;
+    transform: translate(-50%, -50%);
+    /* background: radial-gradient( #ac00e133, transparent, transparent); */
+}
+
+.loader::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    25% {
+        transform: translate(0%, -50%) scale(1.5);
+    }
+    50% {
+        transform: translate(0%, 0%) scale(2);
+    }
+    75% {
+        transform: translate(-50%, 0%) scale(1.5);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}

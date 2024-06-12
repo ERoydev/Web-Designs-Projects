@@ -6,7 +6,7 @@ export default function ExperienceCard({
     pText
 }) {
     return(
-        <div className="window md:w-[50%] h-40 flex gap-5 items-center lg:pl-10 pl-5 max-md:justify-center">
+        <div className="window md:w-[50%] h-40 flex gap-5 items-center lg:pl-10 pl-5 max-md:justify-center loader">
             <div className="overflow-hidden rounded-full bg-gray-600 lg:w-[100px] lg:h-[100px] w-[75px] h-[75px] flex items-center">
                 <img src={imgPath} alt='laptop' className="lg:w-[100px] lg:h-[100px] w-[75px] h-[75px]"/>
             </div>

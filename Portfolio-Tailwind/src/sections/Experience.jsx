@@ -19,7 +19,6 @@ export default function Experience() {
                 <div className="md:flex md:space-x-10 max-md:space-y-8">
                     <ExperienceCard imgPath={freelanceImg} h1Text={'Freelance Frontend Projects'} pText={"Delivering high-quality, custom web solutions for diverse clients."} />
                     <ExperienceCard imgPath={backendImg} h1Text={'Django REST API'} pText={'Building robust and scalable APIs with Django.'}/>
-
                 </div>
             </div>
         </section>
