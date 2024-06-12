@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 
 export default function App() {
   return (
-    <main className="relative bg-primary">
+    <main className="relative bg-color-gradient">
       <Nav />
       <section className="xl:padding-1 padding-b">
         <Hero />

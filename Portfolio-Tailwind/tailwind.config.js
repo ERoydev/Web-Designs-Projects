@@ -17,6 +17,9 @@ export default {
       '8xl': ['96px', '106px']
     },
     extend: {
+      backgroundImage: {
+        'color-gradient': 'linear-gradient(to right bottom, #09031c, #0d081c, #110d1c, #14111c, #16141c, #16141c, #16141b, #16141b, #14111a, #110d19, #0d0819, #090318);'
+      },
       animation: {
         "loop-scroll-up": "loop-scroll-up 40s linear infinite",
         "loop-scroll-down": "loop-scroll-down 50s linear infinite",
@@ -38,7 +41,7 @@ export default {
       colors: {
         'primary': "#1c1c22",
         "purple-clr": "#b853cf",
-        "white-clr": "#fff"
+        "white-clr": "#fff",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
