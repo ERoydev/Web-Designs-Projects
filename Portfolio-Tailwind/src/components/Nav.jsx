@@ -10,7 +10,7 @@ export default function Nav() {
                         <li key={item.label}>
                             <a 
                                 href={item.href}
-                                className="font-montserrat leading-normal text-white-clr"
+                                className="font-montserrat leading-normal text-white-clr ease-in duration-300 hover:text-orange-600" 
                             >
                                 {item.label}
                             </a>

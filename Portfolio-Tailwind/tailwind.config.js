@@ -41,7 +41,7 @@ export default {
       colors: {
         'primary': "#1c1c22",
         "purple-clr": "#b853cf",
-        "white-clr": "#fff",
+        "white-clr": "#fff"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
