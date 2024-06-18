@@ -1,9 +1,19 @@
 export default function SocialItem({
     imgPath,
+    onClickHandler,
+    linkName
 }) {
+
+    const clickHandler = () => {
+        if (linkName == 'Github') {
+            window.location.href = 'https://github.com/ERoydev/';
+        } else if (linkName == 'Linkedin') {
+            window.location.href = 'https://www.linkedin.com/in/emil-roydev-91450b26a/';
+        }
+    }
     return(
-        <div className="window p-3 hover:bg-slate-800 hover:cursor-pointer scale-90 shadow-none transition-shadow hover:scale-100 hover:shadow-lg hover:shadow-gray-700">
-            <img src={imgPath} alt="Github icon" className="md:w-[35px]  md:h-[35px] w-[20px] h-[20px]"/>
+        <div className="window p-3 hover:bg-slate-800 hover:cursor-pointer scale-90 shadow-none transition-shadow hover:scale-100 hover:shadow-lg hover:shadow-gray-700" onClick={clickHandler}>
+            <img src={imgPath} alt="Social Link icon" className="md:w-[35px]  md:h-[35px] w-[20px] h-[20px]"/>
         </div>
     );
 }

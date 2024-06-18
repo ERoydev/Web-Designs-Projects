@@ -11,7 +11,8 @@ export default function Footer() {
 
     const handleMessageButton = (e) => {
         window.location.href = 'mailto:e.roydev@gmail.com?subject=Contact%20Us&body=Hi%20there,%0D%0A%0D%0AI%20would%20like%20to%20get%20in%20touch%20with%20you%20regarding...%0D%0A%0D%0AThank%20you!';
-    }
+    };
+
     return(
         <>
             <div className="max-container flex flex-col items-center mb-16">
@@ -46,8 +47,8 @@ export default function Footer() {
             <div className="flex justify-between w-[100%] items-center">
                 <p className="text-white-clr md:text-[0.9rem] text-[0.6rem] font-normal">Copyright &copy; 2024 Emil Roydev</p>
                 <div className="flex gap-3">
-                    <SocialItem imgPath={github}/>
-                    <SocialItem imgPath={linkedin}/>
+                    <SocialItem imgPath={github} linkName={'Github'} />
+                    <SocialItem imgPath={linkedin} linkName={'Linkedin'} />
                 </div>
             </div>
         </>
