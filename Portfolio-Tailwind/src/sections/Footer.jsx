@@ -1,9 +1,10 @@
 import Button from "../components/Button";
 import navArrow from "../assets/icons/location-arrow-solid.svg";
-import linedin from "../assets/svg/linkedin.svg";
+import linkedin from "../assets/svg/linkedin.svg";
 import github from "../assets/svg/github.svg";
 import { useState } from "react";
 import ContactItem from "../components/Footer/ContactItem";
+import SocialItem from "../components/Footer/SocialItem";
 
 export default function Footer() {
     const [openMessage, setOpenMessage] = useState(false);
@@ -44,15 +45,9 @@ export default function Footer() {
 
             <div className="flex justify-between w-[100%] items-center">
                 <p className="text-white-clr md:text-[0.9rem] text-[0.6rem] font-normal">Copyright &copy; 2024 Emil Roydev</p>
-
                 <div className="flex gap-3">
-                    <div className="window p-3 hover:bg-slate-800 hover:cursor-pointer scale-90 shadow-none transition-shadow hover:scale-100 hover:shadow-lg hover:shadow-gray-700">
-                        <img src={github} alt="Github icon" className="md:w-[35px]  md:h-[35px] w-[20px] h-[20px]"/>
-                    </div>
-
-                    <div className="window p-3 hover:bg-slate-800 hover:cursor-pointer scale-90 shadow-none transition-shadow hover:scale-100 hover:shadow-lg hover:shadow-gray-700">
-                        <img src={linedin} alt="Linkedin icon" className="md:w-[35px] md:h-[35px] w-[20px] h-[20px]"/>
-                    </div>
+                    <SocialItem imgPath={github}/>
+                    <SocialItem imgPath={linkedin}/>
                 </div>
             </div>
         </>
