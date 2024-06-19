@@ -16,7 +16,7 @@ export default function ProjectItem({
     }
 
     return (
-        <div className="overflow-hidden relative window px-5 py-8 w-[700px] h-[700px] flex flex-col loader upwards">
+        <div className="overflow-hidden relative window px-5 py-8 w-[700px] xl:h-[700px] h-[600px] max-md:w-[100%] max-sm:h-[550px] max-md:h-[600px] flex flex-col loader upwards">
             <div className="mb-10">
                 <div className="px-2 pt-4 pb-6 rounded-xl">
                     <img src={imageUrl} alt="Planet Earth" className="rounded-2xl border border-slate-100/[0.1]" />
