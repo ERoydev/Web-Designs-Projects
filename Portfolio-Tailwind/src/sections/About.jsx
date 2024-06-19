@@ -2,6 +2,7 @@ import computerImg from "../assets/computer.jpg";
 import planetImg from "../assets/planet.jpg";
 import codeImg from "../assets/code_block.jpg";
 import meditationThree from "../assets/three.jpg";
+
 import GlowingButton from "../components/Buttons/GlowingButton";
 import WindowComponent from "../components/windowCard/WindowComponent";
 import PurpleGradient from "../components/BackgroundGradients/PurpleGradient";

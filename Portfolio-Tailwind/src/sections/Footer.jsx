@@ -1,7 +1,10 @@
 import Button from "../components/Button";
+
 import navArrow from "../assets/icons/location-arrow-solid.svg";
 import linkedin from "../assets/svg/linkedin.svg";
 import github from "../assets/svg/github.svg";
+import discord from "../assets/svg/discord.svg";
+
 import { useState } from "react";
 import ContactItem from "../components/Footer/ContactItem";
 import SocialItem from "../components/Footer/SocialItem";
@@ -49,6 +52,7 @@ export default function Footer() {
                 <div className="flex gap-3">
                     <SocialItem imgPath={github} linkName={'Github'} />
                     <SocialItem imgPath={linkedin} linkName={'Linkedin'} />
+                    <SocialItem imgPath={discord} linkName={'Discord'} />
                 </div>
             </div>
         </>

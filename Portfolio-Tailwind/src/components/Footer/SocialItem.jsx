@@ -9,6 +9,8 @@ export default function SocialItem({
             window.location.href = 'https://github.com/ERoydev/';
         } else if (linkName == 'Linkedin') {
             window.location.href = 'https://www.linkedin.com/in/emil-roydev-91450b26a/';
+        } else {
+            window.location.href = 'https://www.discordapp.com/users/1071352603524472924/';
         }
     }
     return(

@@ -13,7 +13,7 @@
     width: 300%;
     height: 300%;
     background: radial-gradient(#ac00e111, #2195f313, #ac00e10e, transparent, transparent);
-    animation: animate 15s linear infinite;
+    animation: animate 8s linear infinite;
     transform: translate(-50%, -50%);
     /* background: radial-gradient( #ac00e133, transparent, transparent); */
 }

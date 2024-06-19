@@ -42,6 +42,19 @@ const techStackData = [
 ]
 // END OF TECH STACK
 
+// PROJECTS DATA
+import jobboImg from "../assets/Images/projects/jobbo/mainPage.png";
+
+const jobboProject = {
+    name: 'Jobbo - Job Search Website',
+    description: 'The idea behind Jobbo is to bridge the gap between job seekers and employers by providing a seamless, efficient, and engaging platform.',
+    imageUrl: jobboImg,
+    techstack: [reactImg, djangoImg, postgreImg, htmlImg, cssImg]
+}
+
+
+// END OF PROJECTS DATA
+
 export {
     Hero,
     About,
@@ -51,4 +64,5 @@ export {
     Footer,
     Approach,
     techStackData,
+    jobboProject,
 }

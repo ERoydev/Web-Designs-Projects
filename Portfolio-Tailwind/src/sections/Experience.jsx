@@ -3,12 +3,13 @@ import databaseImg from "../assets/svg/database.svg";
 import freelanceImg from "../assets/svg/freelance.svg";
 import backendImg from "../assets/svg/backend.svg";
 import ExperienceCard from "../components/Experience/ExperienceCard";
+import SectionHeader from "../components/SectionHeader";
 
 
 export default function Experience() {
     return(
         <div className="max-container relative">
-            <h1 className="mb-24 main-text text-[3.4rem] text-center">My fields of <span className="text-purple-clr">experience</span></h1>
+            <SectionHeader normalText={'My fields of'} colorText={'experience'}/>
             <div className="flex justify-center flex-col xl:gap-10 max-xl:gap-8">
 
                 <div className="md:flex md:space-x-10 max-md:space-y-8">

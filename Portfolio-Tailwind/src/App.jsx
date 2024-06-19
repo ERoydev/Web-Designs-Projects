@@ -13,9 +13,9 @@ export default function App() {
         <About />
       </section>
 
-      {/* <section className="padding">
+      <section className="padding">
         <Projects />
-      </section> */}
+      </section>
 
       <section className="padding-x sm:py-32 py-16 w-full">
         <Experience />
