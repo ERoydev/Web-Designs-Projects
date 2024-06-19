@@ -44,13 +44,25 @@ const techStackData = [
 
 // PROJECTS DATA
 import jobboImg from "../assets/Images/projects/jobbo/mainPage.png";
+import portfolioImg from "../assets/Images/projects/portfolio/portfolio.png";
 
 const jobboProject = {
     name: 'Jobbo - Job Search Website',
-    description: 'The idea behind Jobbo is to bridge the gap between job seekers and employers by providing a seamless, efficient, and engaging platform.',
+    description: 'Jobbo is designed to bridge the gap between job seekers and employers, offering a seamless, efficient, and engaging platform. Implemented using DJANGO REST for the backend and ReactJS for the frontend. The platform supports various features like profile management, job listings, and application tracking, making it a comprehensive solution for the job market.',
     imageUrl: jobboImg,
     techstack: [reactImg, djangoImg, postgreImg, htmlImg, cssImg]
 }
+
+const portfolioProject = {
+    name: 'Portfolio Website',
+    description: 'A personal portfolio website designed to showcase my design and development skills. This project utilizes Tailwind CSS for streamlined and responsive design, and ReactJS for a dynamic and interactive user experience. The site features a variety of sections including an about me page, project showcase, and contact form, all built with a focus on modern web standards and best practices.',
+    imageUrl: portfolioImg,
+    techstack: [reactImg, tailwindImg, htmlImg, cssImg]
+}
+const allProjects = [
+    jobboProject,
+    portfolioProject
+]
 
 
 // END OF PROJECTS DATA
@@ -64,5 +76,5 @@ export {
     Footer,
     Approach,
     techStackData,
-    jobboProject,
+    allProjects,
 }
