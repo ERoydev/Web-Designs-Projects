@@ -50,7 +50,8 @@ const jobboProject = {
     name: 'Jobbo - Job Search Website',
     description: 'Jobbo is designed to bridge the gap between job seekers and employers, offering a seamless, efficient, and engaging platform. Implemented using DJANGO REST for the backend and ReactJS for the frontend. The platform supports various features like profile management, job listings, and application tracking, making it a comprehensive solution for the job market.',
     imageUrl: jobboImg,
-    techstack: [reactImg, djangoImg, postgreImg, htmlImg, cssImg]
+    techstack: [reactImg, djangoImg, postgreImg, htmlImg, cssImg],
+    githubLinkL: ''
 }
 
 const portfolioProject = {

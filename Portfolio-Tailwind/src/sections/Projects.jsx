@@ -8,7 +8,7 @@ export default function Projects() {
         <div className="max-container flex flex-col">
             <SectionHeader normalText={'Collection of my recent'} colorText={'projects'} />
 
-            <div className="flex gap-5">
+            <div className="flex gap-12">
                 {allProjects.length > 0 && allProjects.map(project => (<ProjectItem {...project} />))}
             </div>
 
