@@ -8,6 +8,7 @@ import discord from "../assets/svg/discord.svg";
 import { useState } from "react";
 import ContactItem from "../components/Footer/ContactItem";
 import SocialItem from "../components/Footer/SocialItem";
+import { Fade } from "react-awesome-reveal";
 
 export default function Footer() {
     const [openMessage, setOpenMessage] = useState(false);
@@ -18,10 +19,11 @@ export default function Footer() {
 
     return(
         <>
-            <div className="max-container flex flex-col items-center mb-16">
+        <Fade delay={100} triggerOnce={true} direction="up">
+            <div className="max-container flex flex-col items-center mb-16" id="contact">
                 <div className="mb-14 2xl:w-[70%] lg:w-[90%]">
-                    <h1 className="mb-6 main-text xl:text-[3.4rem] md:text-[2.6rem] text-[1.8rem] text-center">Looking to <span className="text-purple-clr">collaborate</span> or have any inquiries? Feel free to reach out</h1>
-                    <p className="font-normal text-center font-palanquin text-gray-300 leading-normal mx-auto xl:text-lg md:text-[1.2rem] sm:text-[0.9rem] text-[0.6rem] opacity-[.90]">Drop me a line! I’m here to answer your questions and discuss potential collaborations.</p>
+                    <h1 className="mb-6 main-text xl:text-[3.4rem] md:text-[2.2rem] text-[1.8rem] text-center">Looking to <span className="text-purple-clr">collaborate</span> or have any inquiries? Feel free to reach out</h1>
+                    <p className="font-normal text-center font-palanquin text-gray-300 leading-normal mx-auto xl:text-lg md:text-[1rem] sm:text-[0.9rem] text-[0.6rem] opacity-[.90]">Drop me a line! I’m here to answer your questions and discuss potential collaborations.</p>
                 </div>
 
                 <div className="sm:flex xl:w-[60%] justify-between mb-16 gap-10 max-sm:space-y-10">
@@ -44,9 +46,12 @@ export default function Footer() {
 
                     </div>
                 </div>
-                <Button label={"Get in touch"} imageUrl={navArrow} buttonHandler={handleMessageButton}/>
+                <Button label={"Get in touch"} imageUrl={navArrow} buttonHandler={handleMessageButton} classes={'xl:text-[1.1rem] lg:text-[1rem] text-[0.8rem] py-5 px-4'}/>
             </div>
+        </Fade>
 
+        
+        <Fade delay={100} triggerOnce={true}>
             <div className="flex justify-between w-[100%] items-center">
                 <p className="text-white-clr md:text-[0.9rem] text-[0.6rem] font-normal">Copyright &copy; 2024 Emil Roydev</p>
                 <div className="flex gap-3">
@@ -55,6 +60,8 @@ export default function Footer() {
                     <SocialItem imgPath={discord} linkName={'Discord'} />
                 </div>
             </div>
+        </Fade>
+
         </>
     );
 }

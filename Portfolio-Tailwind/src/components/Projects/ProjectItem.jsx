@@ -16,7 +16,7 @@ export default function ProjectItem({
     }
 
     return (
-        <div className="overflow-hidden relative window px-5 py-8 w-[700px] xl:h-[700px] h-[600px] max-md:w-[100%] max-sm:h-[550px] max-md:h-[600px] flex flex-col loader upwards">
+        <div className="overflow-hidden relative window px-5 py-8 mx-auto w-[700px] xl:h-[700px] h-[600px] max-[864px]:w-[100%] max-sm:h-[550px] max-md:h-[600px] flex flex-col loader upwards">
             <div className="mb-10">
                 <div className="px-2 pt-4 pb-6 rounded-xl">
                     <img src={imageUrl} alt="Planet Earth" className="rounded-2xl border border-slate-100/[0.1]" />
@@ -28,14 +28,13 @@ export default function ProjectItem({
                 <p className="info-text">{description}</p>
             </div>
             
-            <div className="flex justify-between bottom-6 absolute w-[93%]">
-
+            <div className="flex justify-between items-center bottom-6 absolute w-[94%] max-[864px]:w-[91%]">
                 <div className="flex gap-1">
-                    {techstack.length > 0 && techstack.map(tech => (<ProjectTechItem imgUrl={tech} />))}
+                    {techstack.length > 0 && techstack.map((tech, index) => (<ProjectTechItem key={index} imgUrl={tech} />))}
                 </div>
 
                 <div>
-                    <Button label="Check Repository" imageUrl={arrowImg} buttonHandler={buttonClickHandler}/>
+                    <Button label="Check Repository" imageUrl={''} buttonHandler={buttonClickHandler} classes={'w-40 h-[50px] max-[860px]:h-[40px] max-[860px]:w-24 xl:text-[1rem] lg:text-[0.8rem] text-[0.6rem]'}/>
                 </div>
             </div>
         </div>

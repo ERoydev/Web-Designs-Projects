@@ -5,7 +5,6 @@
 @import url(styles/glowing-corners.css);
 @import url(styles/upwards-effect.css);
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

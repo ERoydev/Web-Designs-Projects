@@ -5,6 +5,7 @@ export default function App() {
   return (
     <main className="relative bg-color-gradient">
       <Nav />
+      
       <section className="xl:padding-1 padding-b">
         <Hero />
       </section>
@@ -29,7 +30,7 @@ export default function App() {
         <Education />
       </section> */}
 
-      <section className="sm:px-16 px-8 sm:pt-24 pt-12 pb-12">
+      <section className="sm:px-16 px-8 xl:pt-52 md:pt-24 pt-12 pb-12">
         <Footer />
       </section>
 
