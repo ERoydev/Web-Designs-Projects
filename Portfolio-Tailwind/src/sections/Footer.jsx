@@ -4,6 +4,7 @@ import navArrow from "../assets/icons/location-arrow-solid.svg";
 import linkedin from "../assets/svg/linkedin.svg";
 import github from "../assets/svg/github.svg";
 import discord from "../assets/svg/discord.svg";
+import profileImg from "../assets/Images/myprofile.png"
 
 import { useState } from "react";
 import ContactItem from "../components/Footer/ContactItem";
