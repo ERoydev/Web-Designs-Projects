@@ -21,12 +21,12 @@ export default {
         'color-gradient': 'linear-gradient(to right bottom, #09031c, #0d081c, #110d1c, #14111c, #16141c, #16141c, #16141b, #16141b, #14111a, #110d19, #0d0819, #090318);'
       },
       animation: {
-        "loop-scroll-up": "loop-scroll-up 40s linear infinite",
-        "loop-scroll-down": "loop-scroll-down 50s linear infinite",
+        "loop-scroll-up": "loop-scroll-up 50s linear infinite",
+        "loop-scroll-down": "loop-scroll-down 60s linear infinite",
       },
       keyframes: {
         "loop-scroll-up": {
-          from: {transfrom: "translateY(0)"},
+          from: {transform: "translateY(0)"},
           to: {transform: "translateY(-100%)"},
         },
         "loop-scroll-down": {
