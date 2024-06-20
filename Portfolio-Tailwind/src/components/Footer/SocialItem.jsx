@@ -6,11 +6,11 @@ export default function SocialItem({
 
     const clickHandler = () => {
         if (linkName == 'Github') {
-            window.location.href = 'https://github.com/ERoydev/';
+            window.open('https://github.com/ERoydev/', '_blank');
         } else if (linkName == 'Linkedin') {
-            window.location.href = 'https://www.linkedin.com/in/emil-roydev-91450b26a/';
+            window.open('https://www.linkedin.com/in/emil-roydev-91450b26a/', '_blank');
         } else {
-            window.location.href = 'https://www.discordapp.com/users/1071352603524472924/';
+            window.open('https://www.discordapp.com/users/1071352603524472924/', '_blank');
         }
     }
     return(

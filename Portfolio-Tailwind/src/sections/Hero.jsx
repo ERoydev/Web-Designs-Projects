@@ -5,7 +5,10 @@ import { Fade } from "react-awesome-reveal";
 export default function Hero() {
 
     const buttonClickHandler = () => {
-
+        const element = document.getElementById('projects');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 
     return (
