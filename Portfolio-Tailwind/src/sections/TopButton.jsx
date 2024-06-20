@@ -29,12 +29,12 @@ export default function TopButton() {
 
     return (
         <div
-            className={`fixed bottom-28 right-12 z-5 p-3 rounded-full transition-all duration-700 ease-in-out 
+            className={`fixed bottom-32 right-12 max-md:bottom-25 max-md:right-8 z-5 p-3 rounded-full transition-all duration-700 ease-in-out 
                 ${isVisible ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-20'}
-                hover:cursor-pointer hover:bg-slate-300/[0.5] bg-slate-600/[0.8]`}
+                hover:cursor-pointer hover:bg-purple-300/[0.5] bg-slate-600/[0.8]`}
             onClick={scrollToTop}
         >
-            <img src={chevronImg} alt="Top Button" className="w-[35px] h-[35px]" />
+            <img src={chevronImg} alt="Top Button" className="w-[35px] h-[35px] max-md:w-[25px] max-md:h-[25px]" />
         </div>
     );
 }

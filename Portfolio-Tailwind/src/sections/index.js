@@ -23,6 +23,7 @@ import dockerImg from '../assets/Images/technologies/docker.svg';
 import photoshopImg from '../assets/Images/technologies/photoshop.svg';
 import figmaImg from '../assets/Images/technologies/figma.svg';
 import tailwindImg from '../assets/Images/technologies/tailwind.svg';
+import firebaseImg from '../assets/Images/technologies/firebase.svg'
 
 const techStackData = [
     {name: "Python", imageUrl: pythonImg},
@@ -39,6 +40,7 @@ const techStackData = [
     {name: "Photoshop", imageUrl: photoshopImg},
     {name: "Figma", imageUrl: figmaImg},
     {name: "Tailwind", imageUrl: tailwindImg},
+    {name: "Firebase", imageUrl: firebaseImg}
 ]
 // END OF TECH STACK
 
@@ -58,7 +60,7 @@ const portfolioProject = {
     name: 'Portfolio Website',
     description: 'A personal portfolio website designed to showcase my design and development skills. This project utilizes Tailwind CSS for streamlined and responsive design, and ReactJS for a dynamic and interactive user experience. The site features a variety of sections including an about me page, project showcase, and contact form, all built with a focus on modern web standards and best practices.',
     imageUrl: portfolioImg,
-    techstack: [reactImg, tailwindImg, htmlImg, cssImg],
+    techstack: [reactImg, tailwindImg, htmlImg, cssImg, firebaseImg],
     githubLink: 'https://github.com/ERoydev/Jobbo---Job-Search-Website'
 }
 const allProjects = [
