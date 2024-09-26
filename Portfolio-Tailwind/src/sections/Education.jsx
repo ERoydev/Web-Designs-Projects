@@ -1,5 +1,7 @@
+import SectionHeader from "../components/SectionHeader";
+
 export default function Education() {
     return(
-        <div>Education</div>
+        <SectionHeader normalText={'My'} colorText={'education'}/>
     );
 }

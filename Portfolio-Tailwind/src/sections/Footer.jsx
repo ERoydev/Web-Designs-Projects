@@ -4,17 +4,13 @@ import navArrow from "../assets/icons/location-arrow-solid.svg";
 import linkedin from "../assets/svg/linkedin.svg";
 import github from "../assets/svg/github.svg";
 import discord from "../assets/svg/discord.svg";
-import profileImg from "../assets/Images/myprofile.png"
 
-import { useState } from "react";
 import ContactItem from "../components/Footer/ContactItem";
 import SocialItem from "../components/Footer/SocialItem";
 import { Fade } from "react-awesome-reveal";
 
 export default function Footer() {
-    const [openMessage, setOpenMessage] = useState(false);
-
-    const handleMessageButton = (e) => {
+    const handleMessageButton = () => {
         window.location.href = 'mailto:e.roydev@gmail.com?subject=Contact%20Us&body=Hi%20there,%0D%0A%0D%0AI%20would%20like%20to%20get%20in%20touch%20with%20you%20regarding...%0D%0A%0D%0AThank%20you!';
     };
 

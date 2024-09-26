@@ -25,6 +25,7 @@ import figmaImg from '../assets/Images/technologies/figma.svg';
 import tailwindImg from '../assets/Images/technologies/tailwind.svg';
 import firebaseImg from '../assets/Images/technologies/firebase.svg'
 
+
 const techStackData = [
     {name: "Python", imageUrl: pythonImg},
     {name: "JavaScript", imageUrl: javascriptImg},
@@ -53,15 +54,15 @@ const jobboProject = {
     description: 'Jobbo is designed to bridge the gap between job seekers and employers, offering a seamless, efficient, and engaging platform. Implemented using DJANGO REST for the backend and ReactJS for the frontend. The platform supports various features like profile management, job listings, and application tracking, making it a comprehensive solution for the job market.',
     imageUrl: jobboImg,
     techstack: [reactImg, djangoImg, postgreImg, htmlImg, cssImg],
-    githubLink: 'https://github.com/ERoydev/Web-Designs-Projects/tree/main/Portfolio-Tailwind'
+    githubLink: 'https://github.com/ERoydev/Jobbo---Job-Search-Website'
 }
 
 const portfolioProject = {
     name: 'Portfolio Website',
     description: 'A personal portfolio website designed to showcase my design and development skills. This project utilizes Tailwind CSS for streamlined and responsive design, and ReactJS for a dynamic and interactive user experience. The site features a variety of sections including an about me page, project showcase, and contact form, all built with a focus on modern web standards and best practices.',
     imageUrl: portfolioImg,
-    techstack: [reactImg, tailwindImg, htmlImg, cssImg, firebaseImg],
-    githubLink: 'https://github.com/ERoydev/Jobbo---Job-Search-Website'
+    techstack: [reactImg, tailwindImg, htmlImg, cssImg],
+    githubLink: 'https://github.com/ERoydev/MyPortfolio-React'
 }
 const allProjects = [
     jobboProject,

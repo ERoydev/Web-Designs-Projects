@@ -38,7 +38,7 @@ export default function App() {
         <Footer />
       </section>
 
-      <section>
+      <section className="max-sm:hidden">
         <TopButton />
       </section>
 

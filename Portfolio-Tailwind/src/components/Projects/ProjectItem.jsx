@@ -8,11 +8,12 @@ export default function ProjectItem({
     name,
     description,
     imageUrl,
-    techstack
+    techstack,
+    githubLink
 }) {
 
     const buttonClickHandler = () => {
-
+        window.open(githubLink, '_blank');
     }
 
     return (
